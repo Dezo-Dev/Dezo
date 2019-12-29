@@ -9,37 +9,57 @@ class Nav extends Component {
         <NavLink
           to="/about"
           activeClassName="active"
-          style={{ textDecoration: "none", color: "black" }}
+          style={{
+            textDecoration: "none",
+            color: "#00e6b8",
+            fontWeight: "bolder"
+          }}
         >
-          About
+          About Dezo
         </NavLink>
         <NavLink
           to="/products"
           activeClassName="active"
-          style={{ textDecoration: "none", color: "black" }}
+          style={{
+            textDecoration: "none",
+            color: "#00e6b8",
+            fontWeight: "bolder"
+          }}
         >
           Products
         </NavLink>
         <NavLink
           to="/press"
           activeClassName="active"
-          style={{ textDecoration: "none", color: "black" }}
+          style={{
+            textDecoration: "none",
+            color: "#00e6b8",
+            fontWeight: "bolder"
+          }}
         >
           Press
         </NavLink>
         <NavLink
           to="/contact"
           activeClassName="active"
-          style={{ textDecoration: "none", color: "black" }}
+          style={{
+            textDecoration: "none",
+            color: "#00e6b8",
+            fontWeight: "bolder"
+          }}
         >
-          Contact Us
+          Contact
         </NavLink>
         <NavLink
           to="/buy"
           activeClassName="active"
-          style={{ textDecoration: "none", color: "black" }}
+          style={{
+            textDecoration: "none",
+            color: "#00e6b8",
+            fontWeight: "bolder"
+          }}
         >
-          Where To Buy
+          Find Dezo
         </NavLink>
       </nav>
     );

@@ -5,10 +5,9 @@ export const TwentyOne = props => {
     <div>
       <section className="modal-main modal-top">
         <h2>Respectfully Wild</h2>
-        <h2>dezo</h2>
-        <section className="modal-bottom">
-          <p>You must be of legal drinking age to enter this website</p>
-          <p>Please enter your birthday below</p>
+        <div className="modal-bottom">
+
+          <h3>WHEN WERE YOU BORN?</h3>
           <form onSubmit={props.submitAge}>
             <input
               className="inputs"
@@ -31,10 +30,11 @@ export const TwentyOne = props => {
               maxLength="4"
               onChange={props.onChange}
             />
-            <button type="submit">enter</button>
+            <button type="submit">ENTER</button>
           </form>
+          <p id='enter'>You must be 21 or older to enter this website</p>
           <span>{props.error}</span>
-        </section>
+        </div>
       </section>
     </div>
   );

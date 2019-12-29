@@ -1,9 +1,9 @@
-const User = require('./User')
-const Product = require('./Product')
-
-Product.belongsTo(User)
-User.hasMany(Product)
+const User = require("./User");
+const Product = require("./Product");
+const Store = require("./Store");
 
 module.exports = {
-    Product, User
-}
+  Product,
+  User,
+  Store
+};

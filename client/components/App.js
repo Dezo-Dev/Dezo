@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Routes from "./Routes";
 import { TwentyOne } from "./Modals/TwentyOne";
 import { Redirect } from "react-router-dom";
+import Footer from "./Footer"
 
 class App extends React.Component {
   constructor() {
@@ -73,6 +74,7 @@ class App extends React.Component {
             <div>
               <Nav />
               <Routes />
+              <Footer />
             </div>
           )}
           {show && (
