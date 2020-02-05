@@ -7,7 +7,7 @@ class ConnectMaster extends React.Component {
     return (
       <div
         className="parallax"
-        id="connect"
+        id="header"
         style={{
           backgroundImage: "url(../../assets/images/wave-02.jpg)",
           width: "100% !important"

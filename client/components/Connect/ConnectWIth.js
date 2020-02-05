@@ -3,13 +3,13 @@ import { ConnHeaders, ConnLinks } from "./ConnHeaders";
 
 const connect = [
   {
-    name: "Tomas",
+    name: "Tomas Crowe",
     category: "Media Inquiries & PR",
     phone: "(818) 903-7153",
     email: "tomas@vitalizeholdings.com"
   },
   {
-    name: "Tim",
+    name: "Tim Demirjian",
     category: "Investment Opportunities",
     phone: "(617) 459-5121",
     email: "tim@vitalizeholdings.com"
@@ -42,6 +42,7 @@ export default class ConnectWith extends React.Component {
 
               <div className="connect-container" key={idx}>
                 <div><h1 id="connect-category">{c.category}</h1></div>
+                <div><h3 id="connect-name">{c.name}</h3></div>
                 <div><h3 id="connect-phone">{c.phone}</h3></div>
                 <div><h3 id="connect-email">{c.email}</h3></div>
               </div>
