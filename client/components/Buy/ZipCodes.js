@@ -14,6 +14,7 @@ const ZipCodeSearch = ({ zipSearch }) => {
   };
 
   const submit = e => {
+    console.log("selected", selected);
     e.preventDefault();
     zipSearch(zipcode, selected);
     setZipcode("");
