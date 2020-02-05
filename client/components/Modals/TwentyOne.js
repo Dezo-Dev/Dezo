@@ -16,7 +16,7 @@ export const TwentyOne = props => {
             src="../../assets/images/white-logo-03.png"
           ></img>
         </div>
-        <div className="modal-form">
+        <div>
           <h3 id="twenty-one">WHEN WERE YOU BORN?</h3>
           <form onSubmit={props.submitAge} className="form">
             <input
@@ -47,7 +47,7 @@ export const TwentyOne = props => {
               ENTER
             </button>
           </form>
-          <h4 id="enter">You must be 21 or older to enter this website</h4>
+          <h4 style={{ color:"white", padding:"2vw"}}>You must be 21 or older to enter this website</h4>
           <span id="error-twenty-one">{props.error}</span>
         </div>
       </section>

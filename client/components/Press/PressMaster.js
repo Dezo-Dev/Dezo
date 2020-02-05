@@ -7,7 +7,7 @@ class PressMaster extends React.Component {
     return (
       <div
         className="parallax"
-        id="press"
+        id="header"
         style={{
           backgroundImage: "url(../../assets/images/wave-02.jpg)",
           width: "100% !important"
