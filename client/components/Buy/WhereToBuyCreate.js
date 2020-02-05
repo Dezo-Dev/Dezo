@@ -54,11 +54,12 @@ class _WhereToBuyCreate extends React.Component {
   };
 
   zipSearch = async (zipcode, name) => {
+    let filteredStores = [];
     const { data } = await axios.post("/api/stores/zip", { zipcode, name });
     this.setState({ coords: data, reloaded: true });
     if (this.state.reloaded && this.props.stores.length > 0) {
       if (name !== "Any Flavor") {
-        const filteredStores = this.props.stores.filter(
+        filteredStores = this.props.stores.filter(
           s => s.flavors.split(",").indexOf(name) > -1
         );
         this.setState({ filteredStores });
@@ -67,9 +68,12 @@ class _WhereToBuyCreate extends React.Component {
   };
 
   render() {
-    let { stores, user } = this.props;
+    let { user } = this.props;
+    let stores;
     if (this.state.filteredStores.length > 0) {
       stores = [...this.state.filteredStores];
+    } else {
+      stores = [...this.props.stores];
     }
     const fName = user.fName || "";
     const {

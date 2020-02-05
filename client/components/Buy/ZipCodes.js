@@ -6,7 +6,6 @@ const ZipCodeSearch = ({ zipSearch }) => {
 
   const changeSelectedDrink = name => {
     setSelected(name);
-    console.log("My Name", name);
   };
 
   const onChange = e => {
