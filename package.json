@@ -16,7 +16,7 @@
   "homepage": "https://github.com/Dezo-Dev/Dezo#readme",
   "dependencies": {
     "@google/maps": "^1.0.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-loader": "^8.0.6",
     "bootstrap": "^4.4.1",
     "connect-session-sequelize": "^6.0.0",
