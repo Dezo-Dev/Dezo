@@ -29,7 +29,7 @@
     "google-map-react": "^1.1.5",
     "google-maps-react": "^2.0.2",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "passport": "^0.4.0",
     "pg": "^7.12.1",
     "react-redux": "^7.1.1",
